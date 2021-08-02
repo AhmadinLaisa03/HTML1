@@ -5,35 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>TentangBuah.com - website buah</title>
+    <title>Tentangbuah.com - Website tentang buah</title>
 </head>
 <body>
-    <div>
-        <h1>Tentang buah.com</h1>
-        <img src="images/buah.png" width="100px" alt="-">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">buah</a>
-                <ul>
-                    <li><a href="Pages/Apel.html">Apel</a></li>
-                    <li><a href="Pages/Jeruk.html">Jeruk</a></li>
-                    <li><a href="Pages/Mangga.html">Mangga</a></li>
-                    <li><a href="Pages/Pisang.html">Pisang</a></li>
-                </ul>
-            </li>
-            <li><a href="Pages/kontak.html">Kontak</a></li>
-        </ul>
-        
-        <hr>
+    <div class="container">
+        <div class="konten">
+            <header class="judul-web">
+                <h1>Tentangbuah<span class="judul-span">.com</span></h1>
 
-        <h2>Definisi</h2>
+                <nav class="navbar">
+                    <ul class="topbar-content">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Pages/kontak.html">Contact</a></li>
+                        <li class="dropdown">
+                                <a href="#">More</a>
+                                <div class="dropdown-conten">
+                                    <a href="Pages/Apel.html">Apel</a>
+                                    <a href="Pages/Jeruk.html">Jeruk</a>
+                                    <a href="Pages/Mangga.html">Mangga</a>
+                                    <a href="Pages/Pisang.html">Pisang</a>
+                                </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <div class="image cf">
+                <img src="images/buah.png" alt="">
+                <h2>Tentangbuah.com</h2>
+            </div>
 
-        <p>
-            <strong>Buah</strong> adalah <sup>organ</sup> pada tumbuhan berbunga yang merupakan perkembangan lanjutan dari bakal buah (ovarium). Buah biasanya membungkus dan melindungi biji. Aneka rupa dan bentuk buah tidak terlepas kaitannya dengan fungsi utama buah, yakni sebagai pemencar biji tumbuhan.<br> <br>
-            Pengertian <sub>buah</sub> dalam lingkup pertanian (hortikultura) atau pangan adalah lebih luas daripada pengertian buah di atas dan biasanya disebut sebagai <strong>buah-buahan</strong> dalam pengertian ini tidak terbatas yang terbentuk dari bakal buah, melainkan dapat pula berasal dari perkembangan organ yang lain. Karena itu, untuk membedakannya, buah yang sesuai menurut pengertian botani biasa disebut <strong>buah sejati</strong>. <br><br>
-            Buah sering kali memiliki nilai ekonomi sebagai bahan pangan maupun bahan baku industri karena di dalamnya disimpan berbagai macam produk metabolisme tumbuhan, mulai dari karbohidrat, protein, lemak, vitamin, mineral, alkaloid, hingga terpena dan terpenoid. Ilmu yang mempelajari segala hal tentang buah dinamakan <strong>pomologi</strong>.
-        </p>
+            <div class="kontener-isi">
+                <article class="main-article" style="width: 700px;">
+                    <header>
+                        <h2 style="font-weight: bold; font-size: 23px; margin-top: 20px ;color: wheat;">Definisi Buah</h2>
+
+                        <h6 class="metadata">oleh <span class="nama" >Ahmadin Laisa</span>. Sabtu, 24 Juli 2021</h6>
+                    </header>
+
+                    <p>
+                        <strong>Buah</strong> adalah organ pada tumbuhan berbunga yang merupakan perkembangan lanjutan dari bakal buah (ovarium). Buah biasanya membungkus dan melindungi biji. Aneka rupa dan bentuk buah tidak terlepas kaitannya dengan fungsi utama buah, yakni sebagai pemencar biji tumbuhan. <br><br>
+
+                        Pengertian buah dalam lingkup pertanian (hortikultura) atau pangan adalah lebih luas daripada pengertian buah di atas dan biasanya disebut sebagai buah-buahan dalam pengertian ini tidak terbatas yang terbentuk dari bakal buah, melainkan dapat pula berasal dari perkembangan organ yang lain. Karena itu, untuk membedakannya, buah yang sesuai menurut pengertian botani biasa disebut <strong>Buah sejati</strong>. <br><br>
+
+                        Buah sering kali memiliki nilai ekonomi sebagai bahan pangan maupun bahan baku industri karena di dalamnya disimpan berbagai macam produk metabolisme tumbuhan, mulai dari karbohidrat, protein, lemak, vitamin, mineral, alkaloid, hingga terpena dan terpenoid. Ilmu yang mempelajari segala hal tentang buah dinamakan <strong>Pomologi</strong>. <br><br>
+                    </p>
+                </article>
+            </div>
+        </div>
+        <footer class="web-footer">
+            <p>Ahmadin Laisa Furrahmifa XI-RPL</p>
+        </footer>
     </div>
-
 </body>
 </html>
