@@ -272,6 +272,14 @@ header .nama{
 	color: #2f4f4f;
 }
 
+.konten-utama{
+	float: left;
+}
+
+.pinggir, .paragraf{
+	float: right;
+}
+
 .label{
 	font-size: 10px;
 	color: #241f1f;
@@ -286,6 +294,22 @@ header .nama{
 	border-radius: 5px;
 }
 
+	@media only screen and (max-width:768px){
+		.konten-utama, .pinggir, .paragraf{
+			float: none;
+			margin: auto;
+			margin-bottom: 20px;
+		}
+
+		.paragraf{
+			/* text-align: unset; */
+			width: auto;
+		}
+
+		.main-article{
+			width: auto;
+		}
+	}
 
 
 
