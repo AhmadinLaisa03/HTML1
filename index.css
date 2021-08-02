@@ -156,12 +156,15 @@ body{
 	color: #9acd32;
 	text-decoration: underline;
 	float: right;
+	margin-bottom: 120px;
 	padding: 150px 130px 0px 0px;
 }
 
 .image img{
 	background-size: cover;
-	width: 100px;
+	padding-top: 35px;
+	margin-left: 70px;
+	width: 200px;
 }
 
 header{
